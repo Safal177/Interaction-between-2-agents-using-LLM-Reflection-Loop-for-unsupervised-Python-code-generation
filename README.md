@@ -15,7 +15,8 @@ Investigating two Agents communication through an LLM centered on Reflection Loo
 # Project overview:
 The major concern of this project is making a reliable agentic AI pipeline which automatically writes, analyzes, and fine-tunes Python code using a large language model (LLM). Python code passes through repetitive reflection iterations. The workflow has two agents:  code generation agent rooted in user prompts, and feedback agent who functions as a specialist such as Andrej Karpathy. The feedback agent analyzes and then corrects code. At the end, this agent provides guidance to generation agent. This method adopts strategies from autonomous learning through feedback, prompt tuning, and agent-based cooperation to allow autonomous and accurate code. The code is self-refining. 
 
-# Project target: The main goal of this project is to make a self-refining AI programmer. It has some steps:
+# Project target: 
+The main goal of this project is to make a self-refining AI programmer. It has some steps:
 •	Make Python programs according to user’s prompt. 
 •	Show better code from evaluation and refinement cycles 
 •	Keep logical message sequences with memory management
